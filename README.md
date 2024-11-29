@@ -7,16 +7,13 @@
 
 </h5>
 
-# introduction
+# Introduction
+
+Dynamic graphs have recently become a prominent topic in graph learning. Link prediction in dynamic graphs, or dynamic link prediction (DLP), is particularly well-suited for real-world applications, but it also presents significant challenges. DLP focuses on capturing temporal changes in graph features and predicting future link states in graph structures. Due to its practical relevance, DLP has garnered increasing attention, with numerous methods—especially those leveraging deep learning techniques—being continuously proposed. This repository compiles recent advancements in DLP methods and related resources.
 
 
 
-## Table of Contents
-
-- Dynamic Link Prediction
-  - [Related survey](#Related-Survey)
-  - [Non-Deep Learning Methods](#Matrix-Factorization-Based-Methods)
-  - [Deep Learning Methods](#Deep-Learning-Methods)
+  
 
 ## 1. Related Survey
 
@@ -100,6 +97,9 @@
 * (_2021._) **Self-supervised Representation Learning on Dynamic Graphs** [[Paper](https://dl.acm.org/doi/10.1145/3459637.3482389) | [code](https://github.com/ckldan520/DDGCL)]
 * (_2020._) **Temporal Graph Networks for Deep Learning on Dynamic Graphs** [[Paper](https://arxiv.org/abs/2006.10637) | [code](https://github.com/twitter-research/tgn)]
 * (_2020._) **Streaming Graph Neural Networks** [[Paper](https://dl.acm.org/doi/10.1145/3397271.3401092) | [code](https://github.com/wyd1502/DGNN)]
+
+### 3.3 Attention Mechanism
+
 * (_2020._) **DySAT: Deep Neural Representation Learning on Dynamic
 Graphs via Self-Attention Networks** [[Paper](https://dl.acm.org/doi/10.1145/3336191.3371845) | [code](https://github.com/aravindsankar28/DySAT)]
 * (_2020._) **Inductive Representation Learning on Temporal Graphs** [[Paper](https://arxiv.org/abs/2002.07962) | [code](https://github.com/StatsDLMathsRecomSys/Inductive-representation-learning-on-temporal-graphs)]
@@ -108,21 +108,81 @@ Graphs via Self-Attention Networks** [[Paper](https://dl.acm.org/doi/10.1145/333
 * (_2023._) **Dynamic Link Prediction Using Graph Representation Learning with Enhanced Structure and Temporal Information** [[Paper](https://arxiv.org/abs/2306.14157)]
 * (_2022._) **TSAM: Temporal Link Prediction in Directed
 Networks based on Self-Attention Mechanism** [[Paper](https://dl.acm.org/doi/abs/10.3233/IDA-205524)]
+
+### 3.4 Autoencoder
+
 * (_2018._) **DynGEM: Deep Embedding Method for Dynamic Graphs** [[Paper](https://arxiv.org/abs/1805.11273) | [code](https://github.com/palash1992/DynamicGEM)]
 * (_2020._) **dyngraph2vec: Capturing network dynamics using dynamic graph representation learning** [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705119302916) | [code](https://github.com/palash1992/DynamicGEM)]
 * (_2019._) **E-LSTM-D: A Deep Learning Framework for Dynamic Network Link Prediction** [[Paper](https://arxiv.org/abs/1902.08329) | [code](https://github.com/jianz94/e-lstm-d)]
 * (_2019._) **Variational Graph Recurrent Neural Networks** [[Paper](https://arxiv.org/abs/1908.09710) | [code](https://github.com/VGraphRNN/VGRNN)]
-* (_2023._) ** DyVGRNN: DYnamic mixture Variational Graph Recurrent Neural Networks** [[Paper](https://www.sciencedirect.com/science/article/pii/S0893608023002927) | [code](https://github.com/GhazalehNiknam/DyVGRNN)]
+* (_2023._) **DyVGRNN: DYnamic mixture Variational Graph Recurrent Neural Networks** [[Paper](https://www.sciencedirect.com/science/article/pii/S0893608023002927) | [code](https://github.com/GhazalehNiknam/DyVGRNN)]
 * (_2021._) **Hyperbolic Variational Graph Neural Network for Modeling Dynamic Graphs** [[Paper](https://arxiv.org/abs/2104.02228)]
 
+## 4. DLP METHODS FOR COMPLEX GRAPHS
 
+### 4.1 Dynamic Directed Graph
 
+* (_2022._) **GC-LSTM: graph convolution embedded LSTM for dynamic network link prediction** [[Paper](https://dl.acm.org/doi/abs/10.1007/s10489-021-02518-9)]
+* (_2022._) **Graph regularized nonnegative matrix factorization for link prediction in directed temporal networks using PageRank centrality** [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0960077922003174)]
 
+### 4.2 Dynamic Weighted Graph
 
-### Attention Mechanism
+* (_2019._) **GCN-GAN: A Non-linear Temporal Link Prediction Model for Weighted Dynamic Networks** [[Paper](https://ieeexplore.ieee.org/document/8737631) |[code](https://github.com/jiangqn/GCN-GAN-pytorch)]
+* (_2023._) **High-Quality Temporal Link Prediction for Weighted Dynamic Graphs via Inductive Embedding Aggregation** [[Paper](https://ieeexplore.ieee.org/document/10026343) |[code](https://github.com/KuroginQin/IDEA)]
 
-### Autoencoder
+### 4.3 Dynamic Heterogeneous Graph
 
+* (_2020._) **Modeling Dynamic Heterogeneous Network for Link Prediction using Hierarchical Attention with Temporal RNN** [[Paper](https://arxiv.org/abs/2004.01024) |[code](https://github.com/skx300/DyHATR)]
+* (_2020._) **Dynamic Heterogeneous Information Network Embedding With Meta-Path Based Proximity** [[Paper](https://ieeexplore.ieee.org/document/9091208) | [code](https://github.com/rootlu/DyHNE)]
+* (_2021._) **Temporal Heterogeneous Information Network Embedding** [[Paper](https://www.ijcai.org/proceedings/2021/203) | [code](https://github.com/S-rz/THINE)]
+* (_2023._) **Link Prediction for Temporal Heterogeneous Networks Based on the Information Lifecycle** [[Paper](https://www.mdpi.com/2227-7390/11/16/3541)]
+* (_2022._) **H2TNE:Temporal heterogeneous information network embedding in hyperbolic
+spaces** [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-19433-7_11)]
+* (_2019._) **JODIE: Predicting Dynamic Embedding Trajectory in Temporal Interaction Networks** [[Paper](https://snap.stanford.edu/jodie/) | [code](https://github.com/srijankr/jodie)]
+* (_2023._) **Dynamic Heterogeneous Graph Attention Neural Architecture Search** [[Paper](https://zw-zhang.github.io/files/2023_AAAI_DHGAS.pdf) | [code](https://github.com/wondergo2017/DHGAS)]
 
+### 4.4 Dynamic Signed Graph
 
-* (_2023.05_) [NeurIPS' 2023] **Can language models solve graph problems in natural language?** [[Paper](https://arxiv.org/abs/2305.10037) | [Code](https://github.com/Arthur-Heng/NLGraph)]
+* (_2023._) **Representation Learning in Continuous-Time Dynamic Signed Networks** [[Paper](https://dl.acm.org/doi/10.1145/3583780.3615032) | [code](https://github.com/claws-lab/semba)]
+
+* (_2024._) **DynamiSE: dynamic signed network embedding for link prediction** [[Paper](https://dl.acm.org/doi/10.1007/s10994-023-06473-z) | [code](https://github.com/claws-lab/semba)]
+
+### 4.4 Dynamic HyperGraph
+
+* (_2022._) **Dynamic Hypergraph Convolutional Network** [[Paper](https://ieeexplore.ieee.org/document/9835240)]
+* (_2022._) **Temporal Edge-Aware Hypergraph Convolutional Network for Dynamic Graph Embedding** [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-20862-1_32)]
+* (_2023._) **# HyperDNE: Enhanced hypergraph neural network for dynamic network embedding** [[Paper](https://www.sciencedirect.com/science/article/pii/S0925231223000504) | [code](https://github.com/qhgz2013/HyperDNE)]
+
+## 5. Dynamic Graph Datasets
+
+| **Dataset**            | **Graph type**            | **URL**                                                                 |
+|------------------------|---------------------------|-------------------------------------------------------------------------|
+| Alibaba                | -                         | [Link](https://tianchi.aliyun.com/competition/entrance/231719)          |
+| Aminer                 | -                         | [Link](https://www.aminer.cn/citation)                                  |
+| AS-733                 | -                         | [Link](https://snap.stanford.edu/data/as-733.html)                      |
+| Askubuntu              | -                         | [Link](https://west.uni-koblenz.de/konect/networks)                     |
+| Bitcoin-Alpha          | Weighted                  | [Link](https://snap.stanford.edu/data/soc-sign-bitcoin-alpha.html)     |
+| Bitcoin-OTC            | Weighted, signed          | [Link](https://snap.stanford.edu/data/soc-sign-bitcoin-otc.html)       |
+| Brain                  | -                         | [Link](https://www.dropbox.com/sh/33p0gk4etgdjfvz)                     |
+| Cellphone call         | -                         | [Link](http://www.sociopatterns.org/datasets)                           |
+| Colab                  | -                         | [Link](https://arnetminer.org)                                          |
+| CollegeMsg             | Directed                  | [Link](https://snap.stanford.edu/data/CollegeMsg.html)                 |
+| Cora                   | -                         | [Link](https://graphsandnetworks.com/the-cora-dataset)                 |
+| COVID2019              | Heterogeneous             | [Link](https://coronavirus.1point3acres.com)                            |
+| DBLP                   | Heterogeneous             | [Link](https://www.aminer.org/citation)                                 |
+| Email                  | Directed                  | [Link](http://networkrepository.com/dynamic.php)                        |
+| Enron                  | -                         | [Link](https://networkrepository.com/ia-enron-employees.php)           |
+| Epinions               | Signed                    | [Link](http://www.trustlet.org/wiki/Extended_Epinions_dataset)          |
+| FB-Messages            | -                         | [Link](http://networkrepository.com/fb-messages.php)                   |
+| Face-to-face interaction | Directed, weighted        | [Link](https://snap.stanford.edu/data/comm-f2f-Resistance.html)        |
+| Hep-Ph                 | Directed                  | [Link](https://snap.stanford.edu/data/cit-HepPh.html)                   |
+| Math                   | -                         | [Link](http://snap.stanford.edu/data/sx-mathoverflow.html)              |
+| MathOverflow           | Heterogeneous             | [Link](https://snap.stanford.edu/data/sx-mathoverflow.html)             |
+| MOOC                   | Directed, heterogeneous   | [Link](https://snap.stanford.edu/data/act-mooc.html)                    |
+| NBA                    | Heterogeneous             | [Link](https://www.basketball-reference.com)                            |
+| Reddit-Hyperlink       | Directed, signed, heterogeneous | [Link](https://snap.stanford.edu/data/soc-RedditHyperlinks.html)      |
+| Wikipedia              | -                         | [Link](http://snap.stanford.edu/jodie/wikipedia.csv)                    |
+| Yelp                   | Heterogeneous             | [Link](https://www.yelp.com/dataset)                                    |
+| Twitter                | Directed                  | [Link](https://snap.stanford.edu/data/higgs-twitter.html)              |
+| Taobao                 | Heterogeneous             | [Link](https://tianchi.aliyun.com/dataset/9716)                        |
+
