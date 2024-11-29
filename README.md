@@ -55,7 +55,7 @@ Dynamic graphs have recently become a prominent topic in graph learning. Link pr
 * (_2018._) **dynnode2vec: Scalable Dynamic Network Embedding** [[paper](https://www.computer.org/csdl/proceedings-article/big-data/2018/08621910/17D45XDIXOz) | [code](https://github.com/pedugnat/dynnode2vec)]
 * (_2022._) **Link Prediction and Unlink Prediction on Dynamic Networks** [[paper](https://ieeexplore.ieee.org/document/9757817)]
 * (_2018._) **Continuous-Time Dynamic Network Embeddings** [[paper](https://dl.acm.org/doi/fullHtml/10.1145/3184558.3191526)]
-* (_2022._) **Inductive Representation Learning in Temporal Networks via Causal Anonymous Walks** [[paper](https://arxiv.org/abs/2101.05974) |[code](https://github.com/snap-stanford/CAW)]
+* (_2022._) **Inductive Representation Learning in Temporal Networks via Causal Anonymous Walks** [[paper](https://arxiv.org/abs/2101.05974) | [code](https://github.com/snap-stanford/CAW)]
 * (_2022._) **Neural temporal walks: motif-aware representation learning on continuous-time dynamic graphs** [[paper](https://dl.acm.org/doi/abs/10.5555/3600270.3601715) |[code](https://github.com/KimMeen/Neural-Temporal-Walks)]
 
 ## 3. Deep Learning Methods
@@ -64,7 +64,7 @@ Dynamic graphs have recently become a prominent topic in graph learning. Link pr
 
 * (_2020._) **EvolveGCN: Evolving Graph Convolutional Networks for Dynamic Graphs** [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/5984/5840) | [Code](https://github.com/IBM/EvolveGCN)]
 * (_2020._) **ComGCN: Community-Driven Graph Convolutional Network for Link Prediction in Dynamic Networks** [[Paper](https://ieeexplore.ieee.org/document/9634845)]
-* (_2022._) **A Novel Representation Learning for Dynamic Graphs Based on Graph Convolutional Networks** [[Paper](https://ieeexplore.ieee.org/document/9743367)| [code](https://github.com/cgao-comp/DGCN)]
+* (_2022._) **A Novel Representation Learning for Dynamic Graphs Based on Graph Convolutional Networks** [[Paper](https://ieeexplore.ieee.org/document/9743367) | [code](https://github.com/cgao-comp/DGCN)]
 * (_2024._) **Dynamic network link prediction with node representation learning from graph convolutional networks** [[Paper](https://www.nature.com/articles/s41598-023-50977-6)]
 * (_2022._) **GC-LSTM: graph convolution embedded LSTM for dynamic network link prediction** [[Paper](https://dl.acm.org/doi/abs/10.1007/s10489-021-02518-9)]
 * (_2022._) **Gated graph convolutional network based on spatio-temporal semi-variogram for link prediction in dynamic complex network** [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231222008840)]
