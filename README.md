@@ -145,7 +145,7 @@ spaces** [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-19433-7_11
 
 * (_2023._) **Representation Learning in Continuous-Time Dynamic Signed Networks** [[Paper](https://dl.acm.org/doi/10.1145/3583780.3615032) | [code](https://github.com/claws-lab/semba)]
 
-* (_2024._) **DynamiSE: dynamic signed network embedding for link prediction** [[Paper](https://dl.acm.org/doi/10.1007/s10994-023-06473-z) | [code](https://github.com/claws-lab/semba)]
+* (_2024._) **DynamiSE: dynamic signed network embedding for link prediction** [[Paper](https://dl.acm.org/doi/10.1007/s10994-023-06473-z)]
 
 ### 4.4 Dynamic HyperGraph
 
